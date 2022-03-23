@@ -1,0 +1,59 @@
+# Project Specific rules here
+# my .gitignore
+# v000: 2022-0323
+
+# Backup files
+#---------------------------
+*~
+*.orig
+*.bak
+# yyyyMMdd
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+# yyyyMMddHHmm
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+# yyyyMMddHHmmss
+*.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+
+# OS dependent files
+#---------------------------
+.DS_Store
+Thumbs.db
+
+
+# Data source: Input , Output
+#---------------------------
+
+input*/
+output*/
+
+
+# MSOffice
+#---------------------------
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
+
+
+
+
+
+
+
